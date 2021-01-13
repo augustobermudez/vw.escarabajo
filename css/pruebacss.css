@@ -1,0 +1,59 @@
+* {
+  margin: 0;
+  padding: 0; }
+
+/*variables*/
+/*mixin*/
+body {
+  margin: 0;
+  font-family: "Nunito";
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #000000;
+  text-align: left;
+  background-color: white; }
+  body .navbar {
+    grid-area: navbar;
+    margin-top: 15px; }
+  body .encabezado {
+    position: relative;
+    width: 100%;
+    height: auto;
+    min-height: 35rem;
+    padding: 15rem 0;
+    background: linear-gradient(to bottom, 75%, #000000 100%);
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-size: cover; }
+  body .historia-section {
+    margin-top: 5rem; }
+  body .tienda-section {
+    padding: 10rem 0; }
+  body h1 {
+    font-size: 50px;
+    text-align: center;
+    font-family: 'Faster One', cursive;
+    color: #b12a2a;
+    width: 80%;
+    height: 100px; }
+  body .h3 {
+    color: #b12a2a; }
+  body .h5 {
+    background-color: #ffffff; }
+  body .contacto-section {
+    padding-top: 10rem; }
+  body .social {
+    margin-top: 5rem; }
+  body .social a {
+    text-align: center;
+    height: 5rem;
+    width: 5rem;
+    background: black;
+    border-radius: 100%;
+    line-height: 5rem;
+    color: white; }
+  body .social a:hover {
+    color: rgba(245, 27, 27, 0.5); }
+  body .social a:active {
+    color: #ee0c0c; }
